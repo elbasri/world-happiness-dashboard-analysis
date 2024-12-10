@@ -5,7 +5,7 @@ import plotly.express as px
 import os
 
 # Define the path to the data directory
-DATA_DIR = 'data/newData'
+DATA_DIR = 'data'
 
 # Get a list of available years from the filenames
 available_years = sorted(int(file.split('.')[0]) for file in os.listdir(DATA_DIR) if file.endswith('.csv'))
